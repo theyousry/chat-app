@@ -3,21 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Muafukaa!! ChatApp</title>
+    <link rel="stylesheet" href="/css/styles.css"></link>
   </head>
-  <body>
-    <p>Welcome to the Muafukaa!! ChatApp</p>
+  <body class="chat">
+      <div class="chat__sidebar">
+        <h3>BADA$$ NIGGA$</h3>
+        <div id="users"></div>
+      </div>
 
-    <ol id="messages"></ol>
+      <div class="chat__main">
+        <ol id="messages" class="chat__messages"></ol>
 
-    <form id="message-form">
-      <input name="message" type="text" placeholder="Message"/>
-      <button>Send</button>
-    </form>
-    <button id="send-location">Send Location</button>
+        <div class="chat__footer">
+          <form id="message-form">
+            <input name="message" type="text" placeholder="Message" autofocus autocomplete="off"/>
+            <button>Send</button>
+          </form>
+          <button id="send-location">Send location</button>
+        </div>
+      </div>
 
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/js/libs/jquery-3.2.0.min.js"></script>
-    <script src="/js/index.js"></script>
-  </body>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="/js/libs/jquery-3.2.0.min.js"></script>
+      <script src="/js/index.js"></script>
+    </body>
 
-  </html>
+    </html>
