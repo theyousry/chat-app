@@ -9,26 +9,31 @@
 
 ul, li {
   list-style-position: inside;
+
 }
 
 h3 {
   font-weight: 600;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+color: rgb(101, 45, 177);
+
 }
 
 button {
   border: none;
-  background: #265f82;
+  background: #ab2853;
   color: white;
   cursor: pointer;
   padding: 10px;
   transition: background .3s ease;
+  font-size: 1.1rem;
+
 }
 
 button:hover {
   border: none;
-  background: #1F4C69;
+  background: rgb(101, 45, 177);
   color: white;
   padding: 10px;
 }
@@ -49,7 +54,7 @@ button:disabled {
   background: -webkit-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,34,1) 100%); /* safari5.1+,chrome10+ */
   background: -o-linear-gradient(125deg, rgba(39,107,456,1) 0%, rgba(22,84,44,1) 100%); /* opera 11.10+ */
   background: -ms-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(11,84,23,1) 100%); /* ie10+ */
-  background: linear-gradient(325deg, rgba(39,43,130,1) 0%, rgba(20,100,30,1) 100%); /* w3c */
+  background: linear-gradient(325deg, rgba(39,43,130,1) 0%, rgba(99,22,45,1) 100%); /* w3c */
 }
 
 .centered-form__form {
@@ -62,9 +67,13 @@ button:disabled {
 }
 label{
   text-align: right;
+    color: #611730;
+    font-size: 1.1rem;
 }
 input{
   text-align: right;
+  font-size: 1rem;
+
 }
 
 .form-field {
@@ -73,6 +82,7 @@ input{
 
 .form-field > * {
   width: 100%;
+
 }
 
 .form-field label {
@@ -98,7 +108,8 @@ input{
   background: -webkit-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,34,1) 100%); /* safari5.1+,chrome10+ */
   background: -o-linear-gradient(125deg, rgba(39,107,456,1) 0%, rgba(22,84,44,1) 100%); /* opera 11.10+ */
   background: -ms-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(11,84,23,1) 100%); /* ie10+ */
-  background: linear-gradient(325deg, rgba(39,43,130,1) 0%, rgba(20,100,30,1) 100%); /* w3c */
+  background: linear-gradient(325deg, rgba(39,43,130,1) 0%, rgba(99,22,45,1) 100%); /* w3c */
+
 }
 
 .chat__sidebar h3 {
@@ -172,10 +183,13 @@ input{
 .message__title h4 {
   font-weight: 600;
   margin-right: 10px;
+
 }
+
 
 .message__title span {
   color: #999;
+
 }
 
 @media (max-width: 600px) {
