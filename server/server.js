@@ -21,7 +21,7 @@ io.on('connection', (socket) => {
 
   socket.on('join', (params, callback) => {
     if (!isRealString(params.name) || !isRealString(params.room)) {
-      return callback('Name and room name are required.');
+      return callback('.لازم تحط اسم الجحش واسم الغرفة');
     }
 
     socket.join(params.room);
